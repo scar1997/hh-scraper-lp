@@ -9,8 +9,20 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-h1{
+.slp_h1{
     font-size: 46px;
+}
+
+.slp_h2{
+    font-size: 38px;
+}
+
+.slp_h3{
+    font-size: 30px;
+}
+
+.slp_label{
+    font-size: 10px;
 }
 
 .fh{
@@ -21,65 +33,46 @@ h1{
     width: 100%;
 }
 
-.m-section{
-    margin: 50px 0 50px 0;
+.slp_section{
+    padding: 50px 0 50px 0;
 }
 
-.mb-50{
-    margin-bottom: 50px;
-}
-.m-25{
-    margin: 25px;
-}
-
-.hero-banner{
+.slp_hero-banner{
     height: 80%;
-    background-color:blue;
     background-image:url("../img/herob-background.jpeg");
     background-size: cover;
 }
 
-.primary-form{
+.slp_button{
+    background-color: red;
     margin: 0 0 10px 0;
+    width: 100%;
+    transition: 1s;
+    &:hover{
+        background-color: yellow;
+    }
+    &:focus{
+        box-shadow: none;
+    }
 }
 
-.btn-primary{
-   background-color: red;
-   margin: 0 0 10px 0;
-   width: 100%;
-}
-
-.text-small{
-    font-size: 10px;
-}
-
-.intro-section{
+.slp_intro-section{
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
     background-color: #f2eee8;
 }
 
-.intro-img{
+.slp_intro-img{
     width: 100px;
     margin-top: -50px;
 }
 
-.section-img{
+.slp_section-img{
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
 }
 
-.hero-banner{
-    .slp_button{
-        transition: 1s;
-        &:hover{
-            background-color: yellow;
-        }
-        &:focus{
-            box-shadow: none;
-        }
-    }
-}
+
 
