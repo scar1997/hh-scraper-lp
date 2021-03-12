@@ -1,78 +1,88 @@
-html{
-    width: 100%;
-    height: 100%;
+html {
+  width: 100%;
+  height: 100%;
 }
 
-body{
-    width: 100%;
-    height: 100%;
-    font-family: 'Poppins', sans-serif;
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 
-h1{
-    font-size: 46px;
+h1 {
+  font-size: 46px;
 }
 
-.fh{
-    height: 100%;
+.fh {
+  height: 100%;
 }
 
-.fw{
-    width: 100%;
+.fw {
+  width: 100%;
 }
 
-.m-section{
-    margin: 50px 0 50px 0;
+.m-section {
+  margin: 50px 0 50px 0;
 }
 
-.mb-50{
-    margin-bottom: 50px;
-}
-.m-25{
-    margin: 25px;
+.mb-50 {
+  margin-bottom: 50px;
 }
 
-.hero-banner{
-    height: 80%;
-    background-color:blue;
-    background-image:url("../img/herob-background.jpeg");
-    background-size: cover;
+.m-25 {
+  margin: 25px;
 }
 
-.text-white{
-    color: white;
+.hero-banner {
+  height: 80%;
+  background-color: blue;
+  background-image: url("../img/herob-background.jpeg");
+  background-size: cover;
 }
 
-.primary-form{
-    margin: 0 0 10px 0;
+.primary-form {
+  margin: 0 0 10px 0;
 }
 
-.btn-primary{
-   background-color: red;
-   margin: 0 0 10px 0;
-   width: 100%;
+.btn-primary {
+  background-color: red;
+  margin: 0 0 10px 0;
+  width: 100%;
 }
 
-.text-small{
-    font-size: 10px;
+.text-small {
+  font-size: 10px;
 }
 
-.intro-section{
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    background-color: #f2eee8;
+.intro-section {
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  background-color: #f2eee8;
 }
 
-.intro-img{
-    width: 100px;
-    margin-top: -50px;
+.intro-img {
+  width: 100px;
+  margin-top: -50px;
 }
 
-.section-img{
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
+.section-img {
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
 }
 
+.hero-banner .slp_button {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
 
+.hero-banner .slp_button:hover {
+  background-color: yellow;
+}
+
+.hero-banner .slp_button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */
