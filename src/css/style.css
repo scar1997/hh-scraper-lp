@@ -1,3 +1,23 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+@media (max-width: 576px) {
+  .slp_h1 {
+    font-size: 42px;
+  }
+  .slp_h2 {
+    font-size: 28px !important;
+  }
+  .slp_h3 {
+    font-size: 30px;
+  }
+  .slp_label {
+    font-size: 14px;
+  }
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 html {
   width: 100%;
   height: 100%;
@@ -6,7 +26,6 @@ html {
 body {
   width: 100%;
   height: 100%;
-  font-family: 'Poppins', sans-serif;
 }
 
 .slp_h1 {
@@ -14,7 +33,7 @@ body {
 }
 
 .slp_h2 {
-  font-size: 38px;
+  font-size: 32px;
 }
 
 .slp_h3 {
@@ -22,15 +41,11 @@ body {
 }
 
 .slp_label {
-  font-size: 10px;
+  font-size: 14px;
 }
 
-.fh {
-  height: 100%;
-}
-
-.fw {
-  width: 100%;
+.slp_p {
+  font-size: 16px;
 }
 
 .slp_section {
@@ -44,20 +59,24 @@ body {
 }
 
 .slp_button {
-  background-color: red;
-  margin: 0 0 10px 0;
+  background-color: #ff0177;
   width: 100%;
-  -webkit-transition: 1s;
-  transition: 1s;
+  padding: 10px;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .slp_button:hover {
-  background-color: yellow;
+  background-color: #19ffbc;
+  color: #3435fe;
 }
 
 .slp_button:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
+  color: #3435fe;
+  background-color: #19ffbc;
 }
 
 .slp_intro-section {
@@ -65,6 +84,7 @@ body {
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   background-color: #f2eee8;
+  padding: 20px;
 }
 
 .slp_intro-img {
@@ -76,5 +96,11 @@ body {
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slp_form {
+  padding: 10px !important;
+  text-align: center;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
